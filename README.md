@@ -19,3 +19,5 @@
 
 ## [기타](https://github.com/JMine97/CS/blob/main/기타.md)
 - 깃 브랜치 전략
+- 디자인 패턴
+- 엔진엑스
