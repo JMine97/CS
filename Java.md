@@ -3,6 +3,11 @@
 - [제네릭](#제네릭)
 - [자바와 C](#자바와-c)
 - [자바와 파이썬](#자바와-파이썬)
+- [기본형과 참조형](#기본형과-참조형)
+- [깊은 복사 얕은 복사](#깊은-복사-얕은-복사)
+- [==, hashcode, equals 차이 / toString()](#-hashcode-equals-차이--tostring)
+- [박싱과 언박싱 차이](#박싱과-언박싱-차이)
+- [접근제어자](#접근제어자)
 
 <br>
 
@@ -39,6 +44,7 @@
 <br>
 
 # 자바와 C
+
 - C언어
   - 절차 지향 언어
   - 빠름
@@ -59,3 +65,43 @@
   - 데이터 유형 정의 불필요(동적타입 언어 - 런타임시에 결정)
   - 인터프리터 언어
 
+<br>
+
+# 기본형과 참조형
+
+![image](https://user-images.githubusercontent.com/52027965/172899706-60de3366-bb25-4834-95ec-aefd8e29f00b.png)
+- 기본형 : 값을 그대로 할당
+- 참조형 : 값이 저장된 주소값을 할당
+- 참조형은 null값을 가질 수 있지만 기본형은 null값을 가질 수 없다
+
+<br>
+
+# 깊은 복사 얕은 복사
+
+- 깊은복사 : 실제값 복사
+- 얕은복사 : 주소값 복사
+
+<br>
+
+# ==, hashcode, equals 차이 / toString()
+
+- == : 주소값 비교
+- equals : 내부값 비교
+- hashcode : 메모리 번지를 해싱
+- 자바에서는 동등성 비교시 hashcode()를 먼저 실행하고 hashcode()값이 같으면 equals()로 다시 비교한다
+- toString() : 클래스이름@해시코드
+
+<br>
+
+# 박싱과 언박싱 차이
+
+![image](https://user-images.githubusercontent.com/52027965/172901247-eadbe0b6-f6db-427e-aec3-20c344c4985e.png)
+- 박싱 : 기본 자료형의 데이터를 대응되는 래퍼 클래스로 만드는 동작
+- 언박싱 : 박싱 반대
+- 제네릭은 primitive type을 받지 않기 때문에 래퍼 클래스 사용
+
+<br>
+
+# 접근제어자
+
+![image](https://user-images.githubusercontent.com/52027965/172902966-d2f98f4d-e267-4467-91a6-650019e63304.png)

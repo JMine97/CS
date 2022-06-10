@@ -23,7 +23,7 @@
 - 인터페이스와 추상클래스
 - 자바와 C
 - 자바와 파이썬
-  
+
 <br>
 
 ## [자료구조](https://github.com/JMine97/CS/blob/main/자료구조.md)
